@@ -13,10 +13,5 @@ namespace Entities.Concrete
         public int ModelYear { get; set; }
         public decimal DailyPrice { get; set; }
         public string Description { get; set; }
-
-        public Car ToList()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
