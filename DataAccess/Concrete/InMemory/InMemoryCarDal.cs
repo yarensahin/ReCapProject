@@ -1,5 +1,6 @@
 ﻿using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Text;
 
 namespace DataAccess.Concrete
 {
-    public class InMemoryCarDal : ICarDal
+    public class InMemoryCarDal :ICarDal
     {
         List<Car> _cars;
         public InMemoryCarDal()
@@ -63,6 +64,9 @@ namespace DataAccess.Concrete
             carToUpdate.Description = car.Description;
         }
 
- 
+        List<CarDetailDto> ICarDal.GetCarDetails()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
