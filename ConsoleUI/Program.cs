@@ -29,7 +29,7 @@ namespace ConsoleUI
             UserManager userManager = new UserManager(new EfUserDal());
             User user = new User { FirstName = "Ali", LastName = "Yılmaz", Id = 80, Password = "147258" };
 
-            if (userManager.Add(user).Success == true)
+            if (userManager.Add(user).Success )
             {
                 userManager.Add(user);
 
@@ -52,7 +52,7 @@ namespace ConsoleUI
                 Id = 300
             };
 
-            if (rentalManager.Add(rental).Success == true)
+            if (rentalManager.Add(rental).Success)
             {
                 rentalManager.Add(rental);
             }
