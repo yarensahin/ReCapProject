@@ -13,3 +13,6 @@
 5.Sisteme yeni araba eklendiğinde araba adının minimun 2 karakter ve günlük fiyatının 0'dan büyük olması koşulları eklendi.<br/>
 6.Core katmanı oluşturuldu ve evrensel kodlar içine eklendi.IEntity, IEntityRepository, EfEntityRepositoryBase <br/>
 7.Arabaları CarName, BrandName, ColorName, DailyPrice olacak şekilde listelemek için join operasyonu yazıldı. Bunun için Entities katmanına CarDetailDto eklendi ve Core katmanında interface IDto oluşturuldu.<br/>
+8.Core katmanında results yapılandırması yapıldı ve business katmanı buna göre refactor edildi.<br/>
+9.Users, Customers, Rentals tabloları oluşturuldu. Bu entityler oluşturuldu.Bu entiylerin CRUD operasyonları yazıldı.<br/>
+10.Arabanın kiralanması için teslim edilmiş olması gerektiği koşulu eklendi.
