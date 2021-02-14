@@ -15,4 +15,5 @@
 7.Arabaları CarName, BrandName, ColorName, DailyPrice olacak şekilde listelemek için join operasyonu yazıldı. Bunun için Entities katmanına CarDetailDto eklendi ve Core katmanında interface IDto oluşturuldu.<br/>
 8.Core katmanında results yapılandırması yapıldı ve business katmanı buna göre refactor edildi.<br/>
 9.Users, Customers, Rentals tabloları oluşturuldu. Bu entityler oluşturuldu.Bu entiylerin CRUD operasyonları yazıldı.<br/>
-10.Arabanın kiralanması için teslim edilmiş olması gerektiği koşulu eklendi.
+10.Arabanın kiralanması için teslim edilmiş olması gerektiği koşulu eklendi.<br/>
+11.WebAPI katmanı oluşturuldu.
