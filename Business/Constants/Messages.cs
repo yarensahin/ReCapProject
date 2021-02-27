@@ -15,6 +15,6 @@ namespace Business.Constants
         public static string CantRent = "Car can not be rented!";
         public static string RentAdded = "Successfully rented!";
         public static string CantAdded = "Can not added!";
-
+        public static string ImageLimitExceeded = "You can not add more than 5 images";
     }
 }
