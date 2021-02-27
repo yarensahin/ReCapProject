@@ -49,7 +49,7 @@ namespace Core.Utilities.Helpers
             string path = Environment.CurrentDirectory + @"\Images\carImages";
             var newPath = Guid.NewGuid().ToString() + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + fileExtension;
 
-            string result = $@"{newPath}";
+            string result = $@"{path}\{newPath}";
             return result;
 
         }
