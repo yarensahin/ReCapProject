@@ -16,4 +16,7 @@
 8.Core katmanında results yapılandırması yapıldı ve business katmanı buna göre refactor edildi.<br/>
 9.Users, Customers, Rentals tabloları oluşturuldu. Bu entityler oluşturuldu.Bu entiylerin CRUD operasyonları yazıldı.<br/>
 10.Arabanın kiralanması için teslim edilmiş olması gerektiği koşulu eklendi.<br/>
-11.WebAPI katmanı oluşturuldu.
+11.WebAPI katmanı oluşturuldu.<br/>
+12.Autofac desteği eklendi.<br/>
+13.FluentValidation desteği eklendi.<br/>
+14.AOP desteği ve ValidationAspect eklendi.
