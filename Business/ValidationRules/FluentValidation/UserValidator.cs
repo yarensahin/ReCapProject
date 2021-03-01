@@ -12,8 +12,8 @@ namespace Business.ValidationRules.FluentValidation
         {
             RuleFor(u => u.FirstName).NotEmpty();
             RuleFor(u => u.LastName).NotEmpty();
-            RuleFor(u => u.Password).NotEmpty();
-            RuleFor(u => u.Password).MinimumLength(5);
+            //RuleFor(u => u.Password).NotEmpty();
+            //RuleFor(u => u.Password).MinimumLength(5);
         }
     }
 }

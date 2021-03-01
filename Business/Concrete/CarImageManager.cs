@@ -25,7 +25,7 @@ namespace Business.Concrete
         [ValidationAspect(typeof(CarImageValidator))]
         public IResult Add(IFormFile file, CarImage carImage)
         {
-            IResult result = BusinessRules.Run(CheckImageLimit(carImage.CarId));
+            var result = BusinessRules.Run(CheckImageLimit(carImage.CarId));
             if (result!=null)
             {
                 return result;
@@ -38,6 +38,7 @@ namespace Business.Concrete
 
         public IResult Delete(CarImage carImage)
         {
+            FileHelper.Delete(carImage.ImagePath);
             _carImageDal.Delete(carImage);
             return new SuccessResult();
         }
