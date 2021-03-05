@@ -19,4 +19,8 @@
 11.WebAPI katmanı oluşturuldu.<br/>
 12.Autofac desteği eklendi.<br/>
 13.FluentValidation desteği eklendi.<br/>
-14.AOP desteği ve ValidationAspect eklendi.
+14.AOP desteği ve ValidationAspect eklendi.<br/>
+15.CarImages tablosu oluşturuldu.<br/>
+16.Arabaya fotoğraf ekleyecek sistem yazıldı.<br/>
+17.Bir arabanın en fazla 5 fotoğrafı olması kısıtı eklendi<br/>
+18.JWT entegrasyonu yapıldı.
