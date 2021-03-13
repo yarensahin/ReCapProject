@@ -55,7 +55,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.Deleted);
         }
 
-        [SecuredOperation("product.getall,car")]
+        //[SecuredOperation("product.getall,car")]
         [CacheAspect]
         public IDataResult<List<Car>> GetAll()
         {
