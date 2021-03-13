@@ -23,4 +23,5 @@
 15.CarImages tablosu oluşturuldu.<br/>
 16.Arabaya fotoğraf ekleyecek sistem yazıldı.<br/>
 17.Bir arabanın en fazla 5 fotoğrafı olması kısıtı eklendi<br/>
-18.JWT entegrasyonu yapıldı.
+18.JWT entegrasyonu yapıldı.<br/>
+19.Cache, Transaction ve Performance aspectleri eklendi.
