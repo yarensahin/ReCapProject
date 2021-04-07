@@ -71,7 +71,7 @@ namespace ConsoleUI
         private static void CarGetByBrandIdTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            Console.WriteLine(carManager.GetCarsByBrandId(12).Data.CarName);
+            Console.WriteLine(carManager.GetCarsByBrandId(12).Data);
         }
 
         private static void ColorTest()
